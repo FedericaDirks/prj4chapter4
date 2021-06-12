@@ -1,12 +1,12 @@
 *{ margin: 0; padding: 0; border: 0; font-size: 100%; }
 *{font-family: 'Merriweather', serif;}
-
+*{line-height: 1.8;}
 .body{
-	background: #008000;
-
+    background-color: #008000;
+    background-image: url(../Images/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg);
 }
 
-.cats{color: #86af49; text-decoration: underline; text-align: center;}
+.cats{color: #86af49; text-decoration: underline; text-align: center; text-shadow: 1px 1px 2px black;} 
 
 .Federica{color: #86af49; text-decoration: underline; text-align: center;}
 
@@ -19,10 +19,12 @@
 .my-container {
     text-align: center;
     background-color: #b5e7a0;
-	border: 1px #d5e1df;
+	border: 2px #d5e1df;
     width: 819px;
     min-height: 152px;
+	padding: 10px 10 10px 10px;
+	
       }
 #image{opacity: 0.6;
 }
-.p-information{color: #86af49; text-transform: uppercase;}
+.p-information{color: #86af49; text-transform: uppercase;text-shadow: 1px 1px 4px black}
